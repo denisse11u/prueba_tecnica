@@ -10,7 +10,6 @@ class ProductManager {
   int _nextId = 10000;
 
   void addProduct(Product product) {
-    // Si no tiene ID válido, asignar uno nuevo
     if (product.id == 0) {
       product.id = _nextId++;
     }
@@ -18,7 +17,6 @@ class ProductManager {
   }
 
   void updateProduct(Product product) {
-    // Buscar si existe en locales
     final index = _localProducts.indexWhere((p) => p.id == product.id);
     if (index != -1) {
       _localProducts[index] = product;
@@ -34,15 +32,11 @@ class ProductManager {
 
   List<Product> mergeProducts(List<Product> apiProducts) {
     final Map<int, Product> productMap = {};
-
-    // Agregar productos de API (excepto eliminados)
     for (var product in apiProducts) {
       if (!_deletedIds.contains(product.id)) {
         productMap[product.id] = product;
       }
     }
-
-    // Sobrescribir con productos locales
     for (var product in _localProducts) {
       productMap[product.id] = product;
     }
