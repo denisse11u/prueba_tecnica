@@ -1,16 +1,16 @@
 # 🛒 E-Commerce App - Flutter
 
-Aplicación de comercio electrónico desarrollada en **Flutter** como prueba técnica. La app permite gestionar y visualizar productos, seleccionar productos, manejar un carrito de compras y generar facturas.
+Aplicación de gestión de productos desarrollada en **Flutter** como prueba técnica. La app permite gestionar y visualizar productos, seleccionar productos, manejar un carrito de compras y generar facturas.
 
 ## 📌 Características
 
 - 🔑 **Login** con credenciales parametrizadas  
 - 🛍️ **Listado de productos** desde API (**FakeStoreAPI**)  
-- 📝 **CRUD completo de productos**: crear, leer, actualizar y eliminar  
+- 📝 **CRUD completo de productos**
 - 🔍 **Visualización de detalle de producto**  
-- 🛒 **Carrito de compras** con modificación de cantidades  
-- 🧾 **Generación de factura** con código aleatorio  
-- 🔎 **Búsqueda y filtrado de productos**
+- 🛒 **Carrito de compras** 
+- 🧾 **Generación de factura**
+- 🔎 **Búsqueda de productos**
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -41,17 +41,16 @@ Aplicación de comercio electrónico desarrollada en **Flutter** como prueba té
 - ➕ **Create:** Formulario para agregar nuevos productos  
 - 📄 **Read:** Listado y detalle de productos  
 - ✏️ **Update:** Edición de productos existentes  
-- 🗑️ **Delete:** Eliminación de productos con confirmación  
+- 🗑️ **Delete:** Eliminación de productos
 
 ### Validaciones
 - ✅ Formularios con mensajes de error  
 - ✅ Campos obligatorios  
-- ✅ Validación de precios y URLs de imágenes  
 
 ### Manejo de errores
 - ⚠️ Uso de **Try-catch** en peticiones HTTP  
 - ⚠️ Mensajes de error claros  
-- ⚠️ Indicadores de carga (loading)  
+- ⚠️ Indicadores de carga 
 
 
 ## 👨‍💻 Autor
