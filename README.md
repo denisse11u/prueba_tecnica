@@ -16,7 +16,7 @@ Aplicación de comercio electrónico desarrollada en **Flutter** como prueba té
 
 - 💻 Lenguaje: **Dart**  
 - 📱 Framework: **Flutter 3.38.5**  
-- 🌐 HTTP package para consumo de API REST  
+- 🌐 HTTP package 
 - 🏪 FakeStoreAPI: [https://fakestoreapi.com/]
 
 ## 🚀 Instalación y ejecución
